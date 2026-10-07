@@ -2,7 +2,11 @@ import { beforeEach, describe, expect, it } from "vitest";
 import { fireEvent, render, screen, within } from "@testing-library/react";
 import App from "../App";
 import { MSG_MAX } from "../context/CarritoContext";
-import { formatoCOP } from "../utils/formato";
+import { formatoCOP as formatoReal } from "../utils/formato";
+
+// Intl usa un espacio de no separación (U+00A0); jest-dom normaliza el texto
+// del elemento a espacio normal, así que normalizamos también el valor esperado.
+const formatoCOP = (valor) => formatoReal(valor).replace(/\s/g, " ");
 
 const CAFE = "Café de Huila 500 g";
 const PANELA = "Panela orgánica 1 kg";
