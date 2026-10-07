@@ -87,12 +87,12 @@ Opciones para publicar en línea:
 
 | ✓ | Criterio de verificación | ¿Cumple? |
 |---|--------------------------|----------|
-| ☐ | La aplicación corre con los comandos `npm install` y `npm run dev`. | |
-| ☐ | El repositorio es público y se puede clonar sin pedir credenciales. | |
-| ☐ | El catálogo sale de un array JSON con id, nombre, precio y stock. | |
-| ☐ | El ícono del carrito está en la navbar, a la derecha, con contador de unidades. | |
-| ☐ | Ningún campo de cantidad acepta letras (especialmente la e), signos, puntos, comas, 0 ni negativos. | |
-| ☐ | Nunca se supera el stock y siempre aparece el toast de máximo disponible. | |
-| ☐ | Con cantidad 1, al restar (o escribir 0) aparece el toast del mínimo con opción de eliminar. | |
-| ☐ | Los subtotales y el total cuadran al agregar más del mismo producto, cambiar cantidades o eliminar. | |
-| ☐ | El README incluye el enlace del repositorio, las instrucciones y las capturas de evidencia. | |
+| ☑ | La aplicación corre con los comandos `npm install` y `npm run dev`. | |
+| ☑ | El repositorio es público y se puede clonar sin pedir credenciales. | |
+| ☑ | El catálogo sale de un array JSON con id, nombre, precio y stock. | |
+| ☑ | El ícono del carrito está en la navbar, a la derecha, con contador de unidades. | |
+| ☑ | Ningún campo de cantidad acepta letras (especialmente la e), signos, puntos, comas, 0 ni negativos. | |
+| ☑ | Nunca se supera el stock y siempre aparece el toast de máximo disponible. | |
+| ☑ | Con cantidad 1, al restar (o escribir 0) aparece el toast del mínimo con opción de eliminar. | |
+| ☑ | Los subtotales y el total cuadran al agregar más del mismo producto, cambiar cantidades o eliminar. | |
+| ☑ | El README incluye el enlace del repositorio, las instrucciones y las capturas de evidencia. | |
