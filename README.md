@@ -8,20 +8,19 @@ Instructor: Daniel Alfonso Martínez Payán.
 | Campo | Valor |
 |-------|-------|
 | Aprendices | Isabella Montoya, Jean Cardona (ADSO) |
-| Ficha | [COMPLETAR] |
-| Fecha | [COMPLETAR] |
+| Ficha | [3400626] |
 
 > El reto indica modalidad individual; los datos de ficha y documento quedan por completar.
 
 ## 2. Enlace del repositorio público
 
-- Repositorio: [COMPLETAR]
-- Nombre sugerido: `Apellido_Nombre_CarritoReact`
+- Repositorio: [https://github.com/Ryuuk123/Equipo_2_Carrito_React]
+- Nombre sugerido: `Equipo_2_Carrito_React`
 
 ## 3. Tecnología usada
 
 - ☑ React (Vite, JavaScript/JSX)
-- ☐ HTML + CSS + JS puros
+- ☑ HTML + CSS + JS puros
 - CSS puro (sin frameworks), `lucide-react` para íconos
 - Toasts: componente propio (sin librerías ni `alert()`)
 - Pruebas: Vitest + React Testing Library
@@ -30,7 +29,7 @@ Instructor: Daniel Alfonso Martínez Payán.
 ## 4. Instalación y ejecución
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone <https://github.com/Ryuuk123/Equipo_2_Carrito_React.git>
 cd Apellido_Nombre_CarritoReact
 npm install
 npm run dev      # abre http://localhost:5173
@@ -59,7 +58,8 @@ npm run build    # genera la versión de producción en /dist
 ![Subtotales y total](evidencias/06-subtotales-total.png)
 
 **Producto eliminado y total recalculado**
-![Producto eliminado](evidencias/07-producto-eliminado.png)
+![Producto eliminado 1](evidencias/07-producto-eliminado.png)
+![Producto eliminado 2](evidencias/08-producto-eliminado.png)
 
 ## 6. Tabla de evidencias
 
